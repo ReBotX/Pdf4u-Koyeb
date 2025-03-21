@@ -43,7 +43,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "pdfmalayalam2")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'pdfmalayalam2')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001529292644))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001338050690))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'onlinestorylovers')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
