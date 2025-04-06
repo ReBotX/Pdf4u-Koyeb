@@ -7,8 +7,8 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /HerokuPDF4U
-WORKDIR /HerokuPDF4U
+RUN mkdir /Pdf4u-Koyeb
+WORKDIR /Pdf4u-Koyeb
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
 #
