@@ -105,7 +105,7 @@ def get_reply_markup(query):
         [
             InlineKeyboardButton('🔎 Search another Pdf', switch_inline_query_current_chat=query)
         ],[
-            InlineKeyboardButton('🔖 Join our PDF Channel', url='https://t.me/pdfmalayalam')
+            InlineKeyboardButton('🔖 Join our PDF Channel', url='https://t.me/scpdfs')
         ]
         ]
     """buttons = [
