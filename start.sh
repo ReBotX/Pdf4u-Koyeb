@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Pdf4u/HerokuPDF4U.git /HerokuPDF4U
+  git clone https://github.com/ReBotX/Pdf4u-Koyeb.git /Pdf4u-Koyeb
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Pdf4u-Koyeb
