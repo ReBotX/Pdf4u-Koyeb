@@ -409,7 +409,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🔍 Search PDF file', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🗒️ Main Channel', url='https://t.me/pdfmalayalam'),
+            InlineKeyboardButton('🗒️ Main Channel', url='https://t.me/scpdfs'),
             InlineKeyboardButton('📚 pdfonly chnl', url='https://t.me/scpdfs')
             ],[
             InlineKeyboardButton('📚 Group', url='https://t.me/onlinestorylovers'),
@@ -721,7 +721,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your \nQuery: {search} \n\n join @SCpdfs"
+        cap = f"Here is what i found for your \nQuery: {search} \n\n My New Channel @SCpdfs"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
